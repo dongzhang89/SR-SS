@@ -3,7 +3,7 @@
 This is the PyTorch implementation for paper [Self-Regulation for Semantic Segmentation](https://github.com/dongzhang89/SR-SS), ICCV 2021.
 
 
-![Visual Parser](imgs/SR.png)
+![Visual Parser](imgs/SR.png){:height="80%" width="80%"}
 
 
 ## Citing SR-SS
