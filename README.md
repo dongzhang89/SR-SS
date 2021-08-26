@@ -27,3 +27,15 @@ If you have any questions, don't hesitate to contact Dong Zhang: dongzhang@njust
 git clone git@github.com:dongzhang89/SR-SS.git
 cd SR-SS
 ```
+
+- Model Train:
+
+```bash
+python train.py
+```
+
+- Model Test:
+
+```bash
+python test.py
+```
