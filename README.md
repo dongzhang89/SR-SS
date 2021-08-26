@@ -1,6 +1,6 @@
 # Self-Regulation for Semantic Segmentation
 
-This is the PyTorch implementation for paper [Self-Regulation for Semantic Segmentation](https://github.com/dongzhang89/SR-SS), ICCV 2021.
+This is the PyTorch implementation for paper [Self-Regulation for Semantic Segmentation](https://arxiv.org/abs/2108.09702), ICCV 2021.
 
 
 ![Visual Parser](imgs/SR.png)
@@ -17,7 +17,7 @@ This is the PyTorch implementation for paper [Self-Regulation for Semantic Segme
 ```
 
 ## Contact
-If you have any questions, don't hesitate to contact Dong Zhang: dongzhang@njust.edu.cn.
+If you have any questions, don't hesitate to contact: dongzhang@njust.edu.cn.
 
 
 ## Installation Instructions
