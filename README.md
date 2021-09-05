@@ -44,7 +44,7 @@ python demo.py --img_path path --model path/weight
 ```
 You can get a similar image as:
 
-![input](imgs/input.png)![output](imgs/output.png)
+![input](imgs/result.png)
 
 * Result image could be saved as **result.jpg**.
 * To be noticed, the trained model can be loaded by:

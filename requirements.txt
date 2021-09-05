@@ -1,0 +1,7 @@
+tensorboardX
+tensorflow
+opencv-python
+numpy
+easydict
+cython
+pydensecrf
