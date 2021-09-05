@@ -32,8 +32,8 @@ We use the PASCAL VOC 2012 dataset in SR. Go to the [official webpage](http://ho
 ```
 data
   |- VOC2012
-    |- SegmentationClassAug_pseudo_label
-    |- JPEGImages
+    |- SegmentationClassAug_pseudo_label #label path
+    |- JPEGImages #image path
 ```
 
 ## Usage
@@ -59,8 +59,8 @@ Training your own model could be done by running:
 python trainval.py
 ```
 * Change the command line arguments if necessary. 
-* To speed up the training process, we use the loss for the presences of object categories instead of classification, but the performance of these two is quite similar.
-* Please first train the model for 10000 iterations using only MEA loss and switch on the SR loss for the remaining iterations.
+* To speed up the training process, we use the loss for the presences of object categories instead of classification, but the performance of these two methods is quite similar.
+* Please first train the model by 10000 iterations using only MEA loss and switch on the SR loss for the remaining iterations.
 
 ### Test
 Testing your trained model could be done by running:
