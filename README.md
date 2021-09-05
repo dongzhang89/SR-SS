@@ -5,7 +5,7 @@ This is the PyTorch implementation for paper [Self-Regulation for Semantic Segme
 ![SR](imgs/SR.png)
 
 ## Contact
-* This project is a demo implementation by deploying SR on Deeplab for WSSS. 
+* This project is a demo implementation for SR. 
 * If you have any questions, don't hesitate to contact: dongzhang@njust.edu.cn
 
 ## Installation Instructions
