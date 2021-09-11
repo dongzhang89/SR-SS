@@ -25,8 +25,8 @@ class ClassLayer(nn.Module):
 
     def forward(self, x):
         x = self.layer(x)
-        x = self.classification(x)
-        pred = x.view(x.shape[0], -1)
+        pred = self.classification(x)
+        pred = pred.view(pred.shape[0], -1)
         pred = torch.sigmoid(self.fc(pred))
         return x, pred
 
